@@ -37,7 +37,6 @@ models:
   jaffle_shop:
     # Applies to all files under models/marts/
     marts:
-      core:
       +materialized: table
     staging:
       +materialized: view
